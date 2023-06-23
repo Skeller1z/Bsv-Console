@@ -5,9 +5,12 @@ import OtpPage from '../pages/LogoutMenu/OtpPage'
 import Register from '../pages/LogoutMenu/Register'
 import Login from '../pages/LogoutMenu/Login'
 import MainLoginPage from '../pages/LoginMenu/MainLoginPage'
+import { useRecoilState } from 'recoil'
+import { Islogin } from "../Recoil/MainRecoil";
 
 
 export default function Router() {
+  const [islogin, setislogin] = useRecoilState(Islogin);
     return useRoutes([
         {
             path: "/",

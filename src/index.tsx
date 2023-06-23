@@ -5,16 +5,20 @@ import './App.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { RecoilRoot } from 'recoil';
+import RecoilNexus from 'recoil-nexus';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/BSV_Console">
-    <App />
-    </BrowserRouter>
-    
+    <RecoilRoot>
+      <RecoilNexus />
+      <BrowserRouter basename="/BSV_Console">
+        <App />
+      </BrowserRouter>
+    </RecoilRoot>
   </React.StrictMode>
 );
 

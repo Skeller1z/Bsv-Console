@@ -17,7 +17,7 @@ function HomeSection() {
                         Start Trial!
                         <svg className="ml-2 -mr-1 w-5 h-5 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </a>
-                    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-black hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 animate-fade-down animate-once animate-ease-linear animate-delay-21000 animate-duration-25000">
+                    <a href="register" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-black hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 animate-fade-down animate-once animate-ease-linear animate-delay-21000 animate-duration-25000">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-address-book" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"></path>
@@ -33,10 +33,10 @@ function HomeSection() {
                 <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
                     <span className="font-semibold text-gray-700 uppercase animate-fade-down animate-once animate-ease-linear animate-delay-21000 animate-duration-25000">GAIN THE TRUST BY</span>
                     <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between animate-fade-down animate-once animate-ease-linear animate-delay-21000 animate-duration-25000 ">
-                        <img src={Kerry} className='mr-5 mb-5 lg:mb-0 h-[100px]'/>
-                        <img src={Flash} className='mr-5 mb-5 lg:mb-0 h-[40px]'/>
-                        <img src={THPost} className='mr-5 mb-5 lg:mb-0 h-[50px]'/>
-                        <img src={NinjaVan} className='mr-5 mb-5 lg:mb-0 h-[60px]'/>
+                        <img src={Kerry} className='mr-5 mb-5 lg:mb-0 h-[100px]' />
+                        <img src={Flash} className='mr-5 mb-5 lg:mb-0 h-[40px]' />
+                        <img src={THPost} className='mr-5 mb-5 lg:mb-0 h-[50px]' />
+                        <img src={NinjaVan} className='mr-5 mb-5 lg:mb-0 h-[60px]' />
                     </div>
                 </div>
             </div>

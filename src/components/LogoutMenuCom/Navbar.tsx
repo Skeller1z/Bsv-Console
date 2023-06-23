@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <>
             {/* sticky top-0 z-1000 */}
-            <nav className="bg-gray-800 fixed top-0 inset-x-0 z-50">
+            <nav className="bg-gray-800 fixed top-0 inset-x-0 z-50 animate-fade-down animate-duration-[1000ms]">
                 <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                     <div className="relative flex items-center justify-between h-[100px]">
                         <div className="flex items-center justify-start">
